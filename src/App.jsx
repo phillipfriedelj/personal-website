@@ -1,13 +1,11 @@
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 
 function App() {
   return (
-    <div className="w-screen h-screen bg-red-400">
+    <div className="w-screen h-screen">
       <Navbar />
-
-      <h1 className="font-inter font-bold">PHILLIP FRIEDEL</h1>
-      <h1 className="font-inter font-bold">SOFTWARE DEVELOPER</h1>
-      <p>Under construction...</p>
+      <Banner />
     </div>
   )
 }

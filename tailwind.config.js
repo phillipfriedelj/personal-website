@@ -17,9 +17,9 @@ export default {
       }, 
       fontSize: {
         "base": "16px", 
-        "medium":"30px",
-        "large": "40px",
-        "extra-large": "100px",
+        "medium":"20px",
+        "large": "30px",
+        "extra-large": "95px",
       }
     },
   },

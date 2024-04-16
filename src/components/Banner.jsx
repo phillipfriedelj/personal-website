@@ -19,7 +19,7 @@ export default function Banner() {
                     text="hello@phillipfriedel.com"
                 />
 
-                <div class="relative py-5 my-[45px]">
+                <div class="relative py-5 mt-[45px]">
                     <div class="flex-grow border-t-2 border-black"></div>
                     <img src={asterisk} className="absolute h-80 right-0 -top-32"/>
                 </div>

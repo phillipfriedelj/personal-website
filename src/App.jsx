@@ -1,11 +1,14 @@
-import './App.css'
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
+import KeyFacts from "./components/KeyFacts";
 
 function App() {
   return (
-    <>
-      <h1>Phillip Friedel</h1>
-      <p>Under construction...</p>
-    </>
+    <div className="w-screen h-100%">
+      <Navbar />
+      <Banner />
+      <KeyFacts />
+    </div>
   )
 }
 

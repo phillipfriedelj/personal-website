@@ -7,9 +7,9 @@ export default function Navbar() {
                 <img src={userLogo} className="h-5"/>
             </div>
             <div className="space-x-[50px]">
-                <a className="font-inter font-light text-[18px]">Projects</a>
-                <a className="font-inter font-light text-[18px]">About</a>
-                <a className="font-inter font-light text-[18px] text-[#FBF8F2] py-3 px-5 rounded-[33px] bg-black" >hello@phillipfriedel.com</a>
+                <a className="font-inter font-light">Projects</a>
+                <a className="font-inter font-light">About</a>
+                <a className="font-inter font-light text-cream py-3 px-5 rounded-[33px] bg-black" >hello@phillipfriedel.com</a>
             </div>
         </nav>
     )

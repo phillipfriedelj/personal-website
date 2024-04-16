@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="w-screen">
+    <div className="w-screen h-screen bg-red-400">
       <Navbar />
 
       <h1 className="font-inter font-bold">PHILLIP FRIEDEL</h1>

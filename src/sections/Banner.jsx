@@ -1,6 +1,4 @@
 import EmailButton from "../components/Buttons/EmailButton";
-// import asterisk from "../assets/logo_clipped.png";
-import DividerDecoration from "../components/Dividers/DividerDecoration";
 
 export default function Banner() {
 	return(

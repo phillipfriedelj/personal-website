@@ -35,12 +35,16 @@ export default {
 			animation: {
 				grow: 'underlineGrow 0.25s ease-out forwards',
 				wiggle: 'wiggle 0.5s ease-in-out infinite',
+				'spin-slow': 'spin 5s linear infinite',
 			},
 			screens: {
 				'md': '812px'
 			}, 
 			boxShadow: {
 				'deep': '-2px -2px black;',
+			},
+			backgroundImage: {
+				'noise-gradient': "url(./src/assets/noise-1000x500.png), linear-gradient(112deg, rgba(253,219,205,1) 0%, rgba(251,248,242,1) 100%);"
 			}
 		},
 	},

@@ -10,7 +10,7 @@ export default function Banner() {
 				<h2 className="font-inter font-bold text-large md:text-extra-large leading-none">
 					DEVELOPER
 				</h2>
-				<p className="font-inter font-medium text-medium md:text-medium leading-tight pt-[15px] md:pt-[30px] pb-[20px] md:pb-[40px] sm:w-4/5 md:w-3/5">
+				<p className="font-inter font-medium text-medium md:text-large leading-tight pt-[15px] md:pt-[30px] pb-[20px] md:pb-[40px] sm:w-4/5 ">
 					Hey, I’m a passionate software developer who enjoys learning new things and is not afraid of a challenge.
 				</p> 
 				{/* TODO Add Discover text */}

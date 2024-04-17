@@ -38,6 +38,9 @@ export default {
 			},
 			screens: {
 				'md': '812px'
+			}, 
+			boxShadow: {
+				'deep': '-2px -2px black;',
 			}
 		},
 	},

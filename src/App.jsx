@@ -1,8 +1,8 @@
 import Navbar from "./sections/Navbar";
 import Banner from "./sections/Banner";
 import KeyFacts from "./sections/KeyFacts";
-import Divider from "./components/Dividers/Divider";
-import DividerDecoration from "./components/Dividers/DividerDecoration";
+import Divider from "./components/dividers/Divider";
+import DividerDecoration from "./components/dividers/DividerDecoration";
 
 function App() {
 	return (

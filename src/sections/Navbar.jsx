@@ -1,5 +1,5 @@
 import userLogo from "../assets/logo_big.png";
-import EmailButton from "../components/Buttons/EmailButton";
+import EmailButton from "../components/buttons/EmailButton";
 import '../styles/animations.css';
 
 export default function Navbar() {
@@ -9,8 +9,8 @@ export default function Navbar() {
 				<img src={userLogo} className="h-5"/>
 			</div>
 			<div className="flex space-x-2 md:space-x-[50px] items-center">
-				<a href='#' className="font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation">Projects</a>
 				<a href='#' className="font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation">About</a>
+				<a href='#' className="font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation">Projects</a>
 				<div className="hidden sm:inline">
 					<EmailButton text="hello@phillipfriedel.com" />
 				</div>

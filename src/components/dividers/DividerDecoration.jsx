@@ -1,4 +1,4 @@
-import asterisk from "../../assets/logo_clipped.png"
+import asterisk from "../../assets/logo_clipped.png";
 export default function DividerDecoration() {
     return (
         <div className="relative mt-[45px]">

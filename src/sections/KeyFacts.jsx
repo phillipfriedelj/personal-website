@@ -8,7 +8,6 @@ export default function KeyFacts() {
 
 			<KeyFactsTableSmall />
 			<KeyFactsTableLarge />
-
 		</div>
 	);
 }

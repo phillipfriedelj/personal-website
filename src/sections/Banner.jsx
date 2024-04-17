@@ -6,7 +6,7 @@ export default function Banner() {
 	return(
 		<div className="leading-normal pt-2 flex flex-col flex-grow">
 			<div className="px-[20px] md:px-[50px]">
-				<h1 className="font-inter font-bold text-large md:bg-blue-600 lg:bg-red-500 sm:bg-green-600 md:text-extra-large leading-none pb-1">
+				<h1 className="font-inter font-bold text-large md:text-extra-large leading-none pb-1">
 					PHILLIP FRIEDEL 
 				</h1>
 				<h2 className="font-inter font-bold text-large md:text-extra-large leading-none">

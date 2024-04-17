@@ -36,6 +36,9 @@ export default {
 				grow: 'underlineGrow 0.25s ease-out forwards',
 				wiggle: 'wiggle 0.5s ease-in-out infinite',
 			},
+			screens: {
+				'md': '812px'
+			}
 		},
 	},
 	plugins: [],

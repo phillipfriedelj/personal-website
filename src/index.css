@@ -18,6 +18,8 @@ html, body {
 }
 
 body {
+  margin:0px;
+  height:100%;
   background-color: #FBF8F2;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;

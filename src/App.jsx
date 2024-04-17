@@ -4,10 +4,15 @@ import KeyFacts from "./components/KeyFacts";
 
 function App() {
 	return (
-		<div className="w-screen h-100%">
-			<Navbar />
-			<Banner />
+		<div className="w-screen bg-red-300">
+			<div className="h-screen max-h-screen overflow-hidden">
+				<Navbar />
+				<Banner />
+			</div>
 			<KeyFacts />
+			<div className="h-screen">
+
+			</div>
 		</div>
 	);
 }

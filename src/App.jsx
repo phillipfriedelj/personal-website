@@ -1,9 +1,9 @@
-import Navbar from "./pages/Navbar";
-import Banner from "./pages/Banner";
-import KeyFacts from "./pages/KeyFacts";
-import Footer from "./pages/Footer";
-import Divider from "./components/separators/Divider";
-import DividerDecoration from "./components/separators/DividerDecoration";
+import Navbar from "./sections/Navbar";
+import Banner from "./sections/Banner";
+import KeyFacts from "./sections/KeyFacts";
+import Footer from "./sections/Footer";
+import Divider from "./components/dividers/Divider";
+import DividerDecoration from "./components/dividers/DividerDecoration";
 
 function App() {
 	return (

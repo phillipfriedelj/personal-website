@@ -19,7 +19,8 @@ export default {
 				"base": "16px", 
 				"medium":"20px",
 				"large": "30px",
-				"extra-large": "95px",
+				"very-large": "60px",
+				"extra-large": "85px",
 			}, 
 			keyframes: {
 				underlineGrow: {

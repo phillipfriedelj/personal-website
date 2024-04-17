@@ -1,0 +1,37 @@
+/* TODO Decide if css file is suitable and should stay */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.20s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    background-color: black;
+    height: 2px;
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-button {
+    transition: 150ms ease-in 0ms;
+    transform: translate(0px, 0px);
+}
+
+.hover-button:hover {
+    transition: 150ms ease-in 0ms;
+    transform: translate(2px, 2px);
+    box-shadow: -2px -2px black;
+}
+

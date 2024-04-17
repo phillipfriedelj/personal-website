@@ -1,4 +1,4 @@
-import EmailButton from "../components/buttons/EmailButton";
+import EmailButton from "../components/ctas/EmailButton";
 
 export default function Banner() {
 	return(

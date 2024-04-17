@@ -11,7 +11,9 @@ export default function Navbar() {
 			<div className="flex space-x-2 md:space-x-[50px] items-center">
 				<a href='#' className="font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation">Projects</a>
 				<a href='#' className="font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation">About</a>
-				<EmailButton text="hello@phillipfriedel.com" />
+				<div className="hidden sm:inline">
+					<EmailButton text="hello@phillipfriedel.com" />
+				</div>
 			</div>
 		</nav>
 	);

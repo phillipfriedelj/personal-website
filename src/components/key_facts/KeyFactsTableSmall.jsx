@@ -1,6 +1,6 @@
 export default function KeyFactsTableSmall() {
     return(
-        <div className="md:hidden flex flex-col md:flex-row md:space-x-[10px] w-full md:w-[947px] space-y-1 bg-blue-400 flex-grow">
+        <div className="md:hidden flex flex-col md:flex-row md:space-x-[10px] w-full md:w-[947px] space-y-1 flex-grow">
             <div className="flex flex-col space-y-1 md:space-y-[10px] flex-1">
                 <div className="flex w-full space-x-[10px] md:h-[184px] flex-1">
                     <div className="w-full md:w-[250px] rounded-[10px] bg-mint-light border border-black">CELL 1</div>

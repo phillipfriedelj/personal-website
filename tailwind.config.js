@@ -18,7 +18,7 @@ export default {
 			fontSize: {
 				"base": "16px", 
 				"medium":"20px",
-				"large": "30px",
+				"large": "40px",
 				"very-large": "60px",
 				"extra-large": "85px",
 			}, 
@@ -27,9 +27,14 @@ export default {
 					'0%': { transform: 'scaleX(0)' },
 					'100%': { transform: 'scaleX(1)' },
 				},
+				wiggle: {
+					'0%, 100%': { transform: 'rotate(0deg)' },
+					'50%': { transform: 'rotate(1deg)' },
+				}
 			},
 			animation: {
 				grow: 'underlineGrow 0.25s ease-out forwards',
+				wiggle: 'wiggle 0.5s ease-in-out infinite',
 			},
 		},
 	},

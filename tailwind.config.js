@@ -20,7 +20,16 @@ export default {
         "medium":"20px",
         "large": "30px",
         "extra-large": "95px",
-      }
+      }, 
+      keyframes: {
+        underlineGrow: {
+          '0%': { transform: 'scaleX(0)' },
+          '100%': { transform: 'scaleX(1)' },
+        },
+      },
+      animation: {
+        grow: 'underlineGrow 0.25s ease-out forwards',
+      },
     },
   },
   plugins: [],

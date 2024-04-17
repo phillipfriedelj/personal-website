@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar";
-import Banner from "./components/Banner";
-import KeyFacts from "./components/KeyFacts";
+import Navbar from "./sections/Navbar";
+import Banner from "./sections/Banner";
+import KeyFacts from "./sections/KeyFacts";
 
 function App() {
 	return (

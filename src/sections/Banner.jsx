@@ -1,4 +1,4 @@
-import EmailButton from "./Buttons/EmailButton";
+import EmailButton from "../components/Buttons/EmailButton";
 import asterisk from "../assets/logo_clipped.png";
 export default function Banner() {
 	return(

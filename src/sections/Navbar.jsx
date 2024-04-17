@@ -1,5 +1,5 @@
 import userLogo from "../assets/logo_big.png";
-import EmailButton from "./Buttons/EmailButton";
+import EmailButton from "../components/Buttons/EmailButton";
 import '../styles/animations.css';
 
 export default function Navbar() {

@@ -44,6 +44,11 @@ export default {
       backgroundImage: {
         "noise-gradient":
           "url(./src/assets/noise-1000x500.png), linear-gradient(112deg, rgba(253,219,205,1) 0%, rgba(251,248,242,1) 100%);",
+        "banner-image": "url(./src/assets/profile_bw.png)",
+        "asterisk-image": "url(./src/assets/asterisk_big.png)",
+      },
+      gridTemplateRows: {
+        16: "repeat(16, minmax(0, 1fr))",
       },
     },
   },

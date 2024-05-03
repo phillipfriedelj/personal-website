@@ -6,18 +6,17 @@ import Divider from "./components/dividers/Divider";
 import DividerDecoration from "./components/dividers/DividerDecoration";
 
 function App() {
-	return (
-		<div className="w-full">
-			<div className="h-screen max-h-screen flex flex-col bg-noise-gradient">
-				<Navbar />
-				<Banner />
-				<DividerDecoration />
-			</div>
-			<KeyFacts />
-			<Divider />
-			<Footer />
-		</div>
-	);
+  return (
+    <div className="w-full">
+      <div className="h-screen max-h-screen flex flex-col">
+        <Navbar />
+        <Banner />
+      </div>
+      {/* <KeyFacts /> */}
+      <Divider />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

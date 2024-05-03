@@ -4,11 +4,11 @@ import "../styles/animations.css";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex py-2 px-5 md:px-[50px] h-20 bg-dark-gray border-b border-white">
+    <nav className="w-full flex py-2 px-5 md:px-[50px] h-10 bg-dark-gray border-b border-white">
       <div className="flex-1 items-center flex">
         <img src={userLogo} className="h-5" />
       </div>
-      <div className="flex space-x-2 md:space-x-[25px] items-center">
+      <div className="flex space-x-4 md:space-x-[25px] items-center">
         <a
           href="#"
           className="text-white font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation"
@@ -21,9 +21,9 @@ export default function Navbar() {
         >
           Projects
         </a>
-        <div className="hidden sm:inline">
-          <EmailButton text="hello@phillipfriedel.com" />
-        </div>
+        <EmailButton text="hello@phillipfriedel.com" />
+        {/* <div className="hidden sm:inline">
+        </div> */}
       </div>
     </nav>
   );

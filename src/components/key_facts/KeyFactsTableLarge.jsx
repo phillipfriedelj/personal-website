@@ -5,14 +5,14 @@ export default function KeyFactsTableLarge() {
         <div className="hidden md:flex flex-row flex-grow space-x-2 w-full self-center ">
             <div className="flex flex-col space-y-2 justify-between">
                 <div className="flex space-x-2">
-                    <TableCard title="LANGUAGES" bgColor="bg-mint-light">
+                    <TableCard title="LANGUAGES" >
                         <ul className="list-disc list-inside pl-3">
                             <li className="list-item"><span className="relative -left-3">German - <span className="font-inter italic font-thin">Native</span></span></li>
                             <li className="list-item"><span className="relative -left-3">Spanish - <span className="font-inter italic font-thin">Native</span></span></li>
                             <li className="list-item"><span className="relative -left-3">English - <span className="font-inter italic font-thin">Fluent</span></span></li>
                         </ul>
                     </TableCard>
-                    <TableCard title="CERTIFICATIONS" bgColor="bg-mint-light">
+                    <TableCard title="CERTIFICATIONS" >
                         <ul className="list-disc list-inside pl-3">
                             <li className="list-item"><span className="relative -left-3">Scrum Master 1</span></li>
                             <li className="list-item"><span className="relative -left-3">Product Owner 1</span></li>
@@ -40,7 +40,7 @@ export default function KeyFactsTableLarge() {
                     </div>
                 </TableCard>
                 <div className="flex flex-col space-y-2 justify-between">
-                    <TableCard title="EDUCATION" bgColor="bg-mint-light">
+                    <TableCard title="EDUCATION" >
                         <div className="flex flex-col">
                             <div>
                                 <p>M.Sc. Applied Computer Science - <span>HTW Berlin</span></p>
@@ -52,12 +52,12 @@ export default function KeyFactsTableLarge() {
                             </div>
                         </div>
                     </TableCard>
-                    <div className="rounded-[10px] bg-orange border border-black text-center flex justify-center items-center hover:shadow-deep hover:transform hover:translate-x-[2px] hover:translate-y-[2px] duration-[50ms] transition-all ease-in delay-0">
+                    <div className="rounded-[10px] bg-orange border border-black text-center flex justify-center items-center hover:shadow-deep hover:transform hover:translate-x-[2px] hover:translate-y-[2px] duration-[50ms] transition-all ease-in delay-0 cursor-pointer">
                         <p className="font-inter font-semibold text-cream text-medium self-center">DOWNLOAD MY CV</p>
                     </div>
                 </div>
             </div>
-            <TableCard title="CAREER" bgColor="bg-mint-light"/>
+            <TableCard title="CAREER" />
         </div>	
     )
 }

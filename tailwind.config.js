@@ -30,11 +30,16 @@ export default {
           "0%, 100%": { transform: "rotate(0deg)" },
           "50%": { transform: "rotate(1deg)" },
         },
+        "infinite-scroll": {
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(-100%)" },
+        },
       },
       animation: {
         grow: "underlineGrow 0.25s ease-out forwards",
         wiggle: "wiggle 0.5s ease-in-out infinite",
         "spin-slow": "spin 5s linear infinite",
+        "infinite-scroll": "infinite-scroll 25s linear infinite",
       },
       screens: {
         md: "812px",

@@ -3,7 +3,7 @@ import bigAsterisk from "../assets/asterisk_big.png";
 export default function Banner() {
   return (
     <div className="leading-normal flex flex-col flex-grow bg-dark-gray border-b border-white">
-      <div className="grid grid-cols-2 grid-rows-12 md:h-full">
+      <div className="grid grid-cols-2 grid-rows-12 sm:h-full">
         <div className=" border row-span-3 content-center justify-items-center px-2">
           <h1 className="font-inter font-bold text-base md:text-[40px] leading-none text-white">
             PHILLIP FRIEDEL
@@ -12,9 +12,9 @@ export default function Banner() {
             SOFTWARE DEVELOPER
           </h2>
         </div>
-        <div className="border row-span-12  md:row-span-11 content-center justify-items-center">
-          <div className="flex flex-col px-4 py-6 md:p-8 justify-between h-full md:h-4/5">
-            <p className="font-inter font-medium text-xs md:text-medium leading-tight text-white">
+        <div className="border row-span-12  sm:row-span-11 content-center justify-items-center">
+          <div className="flex flex-col px-4 py-6 sm:p-8 justify-between h-full sm:h-4/5">
+            <p className="font-inter font-medium text-xs sm:text-medium leading-tight text-white">
               Hey, I’m a passionate software developer who enjoys learning new
               things and is not afraid of a challenge.
             </p>
@@ -32,7 +32,7 @@ export default function Banner() {
           </div>
         </div>
         <div className="border row-span-9 bg-banner-image bg-cover"></div>
-        <div className="hidden md:grid row-start-12 border row-span-1 col-start-2 items-center grid-cols-12 grid-rows-1">
+        <div className="hidden sm:grid row-start-12 border row-span-1 col-start-2 items-center grid-cols-12 grid-rows-1">
           <IconMapPinFilled
             size={30}
             color="white"

@@ -8,7 +8,7 @@ import DividerDecoration from "./components/dividers/DividerDecoration";
 function App() {
   return (
     <div className="w-full">
-      <div className="h-screen max-h-screen flex flex-col">
+      <div className="sm:h-screen max-h-screen flex flex-col">
         <Navbar />
         <Banner />
       </div>

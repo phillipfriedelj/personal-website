@@ -6,18 +6,18 @@ export default function Navbar() {
   return (
     <nav className="w-full flex py-2 px-5 md:px-[50px] h-10 bg-dark-gray border-b border-white">
       <div className="flex-1 items-center flex">
-        <img src={userLogo} className="h-5" />
+        <img src={userLogo} className="h-4 md:h-5" />
       </div>
       <div className="flex space-x-4 md:space-x-[25px] items-center">
         <a
           href="#"
-          className="text-white font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation"
+          className="text-white font-inter text-xs font-light cursor-pointer hover-underline-animation"
         >
           About
         </a>
         <a
           href="#"
-          className=" text-white font-inter text-xs md:text-base font-light cursor-pointer hover-underline-animation"
+          className=" text-white font-inter text-xs font-light cursor-pointer hover-underline-animation"
         >
           Projects
         </a>

@@ -13,7 +13,7 @@ export default function Banner() {
           </h2>
         </div>
         <div className="row-span-11 content-center justify-items-center  border-l border-b">
-          <div className="flex flex-col px-4 py-6 sm:p-7 justify-between h-full sm:h-4/5">
+          <div className="flex flex-col px-4 py-6 sm:px-16 sm:py-10 justify-between h-full sm:h-4/5">
             <p className="font-inter font-medium text-sm sm:text-base leading-tight text-white">
               Hey, I’m a passionate software developer who enjoys learning new
               things and is not afraid of a challenge.

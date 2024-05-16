@@ -9,6 +9,7 @@ export default {
       colors: {
         cream: "#FBF8F2",
         orange: "#FD5A1F",
+        black: "#181818",
         "mint-light": "#EEF6F0",
         "mint-dark": "#C7E5DF",
         "dark-gray": "#181818",
@@ -46,6 +47,7 @@ export default {
           "url(./src/assets/noise-1000x500.png), linear-gradient(112deg, rgba(253,219,205,1) 0%, rgba(251,248,242,1) 100%);",
         "banner-image": "url(./src/assets/profile_bw.png)",
         "asterisk-image": "url(./src/assets/asterisk_big.png)",
+        "diagonal-line": "url(./src/assets/diag-line.png)",
       },
       gridTemplateRows: {
         16: "repeat(16, minmax(0, 1fr))",

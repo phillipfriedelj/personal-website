@@ -1,13 +1,13 @@
 import { IconMapPinFilled, IconArrowDown } from "@tabler/icons-react";
 export default function Banner() {
   return (
-    <div className="leading-normal flex flex-col flex-grow bg-dark-gray border-white ">
+    <div className="leading-normal flex flex-col flex-grow bg-dark-gray border-white">
       <div className="grid grid-cols-2 grid-rows-12 md:h-full border-b">
         <div className=" row-span-2 content-center justify-items-center px-2 border-b">
-          <h1 className="font-inter font-bold text-sm sm:text-medium md:text-[30px] lg:text-large leading-none text-white">
+          <h1 className="font-inter font-bold text-medium md:text-[30px] lg:text-large leading-none text-white">
             PHILLIP FRIEDEL
           </h1>
-          <h2 className="font-inter font-bold text-sm sm:text-medium md:text-[30px] lg:text-large leading-none text-white">
+          <h2 className="font-inter font-bold text-medium md:text-[30px] lg:text-large leading-none text-white">
             SOFTWARE DEVELOPER
           </h2>
         </div>

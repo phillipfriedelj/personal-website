@@ -2,7 +2,7 @@ import pathCircle from "../assets/path-circle.svg";
 
 export default function CareerPath() {
   return (
-    <div className="flex flex-col space-y-3 justify-evenly flex-grow align-middle px-8">
+    <div className="flex flex-col space-y-3 justify-evenly flex-grow align-middle p-2">
       <div className="flex space-x-4">
         <img src={pathCircle} alt="Your SVG" className="self-start" />
         <div>

@@ -2,7 +2,7 @@ export default function FactListComponent({ listText, subtitle }) {
   return (
     <div className="flex flex-col">
       <div className="flex justify-between items-center space-x-1">
-        <p className="text-white text-sm whitespace-nowrap pl-2 uppercase">
+        <p className="text-white text-[10px] md:text-sm whitespace-nowrap pl-2 uppercase">
           {listText}
         </p>
         <svg className="flex-grow h-1" viewBox="0 0 200 1">

@@ -4,7 +4,6 @@ import KeyFacts from "./sections/KeyFacts";
 import Footer from "./sections/Footer";
 import Divider from "./components/dividers/Divider";
 import Projects from "./components/Projects";
-
 function App() {
   return (
     <div className="w-full">

@@ -3,15 +3,13 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className={`relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[65px] bg-black`}
+      className={`relative flex flex-col py-[28px] px-[20px] md:px-[65px] bg-black`}
     >
-      <div className="flex-grow">
-        <div className="h-full flex flex-col border-white justify-center">
-          <h3 className="pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border">
-            PROJECTS
-          </h3>
-          <ProjectCard />
-        </div>
+      <div className="h-full flex flex-col border-white justify-center">
+        <h3 className="pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border">
+          PROJECTS
+        </h3>
+        <ProjectCard />
       </div>
     </div>
   );

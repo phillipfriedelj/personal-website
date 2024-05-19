@@ -8,7 +8,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <div className="w-full">
-      <div className="sm:h-screen min-h-screen flex flex-col">
+      <div className="md:h-screen flex flex-col">
         <Navbar />
         <Banner />
       </div>

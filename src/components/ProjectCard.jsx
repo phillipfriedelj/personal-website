@@ -15,11 +15,14 @@ export function ProjectCard() {
   return (
     <div className="content-center border flex flex-col">
       <img src={placeholder} className="w-full h-auto" />
-      <div className="p-2 space-y-2">
-        <p className="text-white text-sm md:text-medium font-medium uppercase">
+      <div className="p-2 space-y-2 flex flex-col">
+        <a
+          href="https://wiki-explorer.phillipfriedel.com/"
+          className="w-fit text-white text-sm md:text-medium font-medium uppercase hover-underline-animation items-start"
+          target="_blank"
+        >
           Wiki-Explorer
-        </p>
-        {/* <div className="bg-white rounded-full w-1/4 text-xs">a</div> */}
+        </a>
         <div class="bg-white rounded-full w-1/4 h-5 text-xs inline-flex flex-nowrap overflow-hidden">
           <ul
             ref={logosRef}

@@ -14,7 +14,10 @@ import FactListComponent from "../components/FactListComponent";
 
 export default function KeyFacts() {
   return (
-    <div className="relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[65px] bg-black">
+    <div
+      id="key-facts"
+      className="relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[65px] bg-black"
+    >
       <div className="flex-grow flex items-stretch">
         <div className="flex flex-col flex-grow border-white justify-center">
           <h3 className="flex-grow-0 pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border">
@@ -112,8 +115,12 @@ export default function KeyFacts() {
                 />
               </div>
             </div>
-            <div className="hidden md:block md:col-span-2 md:row-start-10">
-              <div className="flex justify-center w-full h-full space-x-2 bg-orange">
+            <div className="hidden md:block md:col-span-2 md:row-start-10 hover:shadow-deep hover:transform hover:translate-x-[2px] hover:translate-y-[2px] duration-[50ms] transition-all ease-in delay-0 cursor-pointer active:scale-[0.99]">
+              <a
+                href="/PhillipFriedel_CV.pdf"
+                download={"PhillipFriedel_CV.pdf"}
+                className="flex justify-center w-full h-full space-x-2 bg-orange"
+              >
                 <IconArrowDown
                   color="white"
                   stroke={2}
@@ -122,7 +129,7 @@ export default function KeyFacts() {
                 <p className="text-white text-medium font-bold self-center">
                   DOWNLOAD MY CV
                 </p>
-              </div>
+              </a>
             </div>
           </div>
         </div>

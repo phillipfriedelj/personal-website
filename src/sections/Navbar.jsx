@@ -10,20 +10,18 @@ export default function Navbar() {
       </div>
       <div className="flex space-x-4 md:space-x-[25px] items-center">
         <a
-          href="#"
+          href="#key-facts"
           className="text-white font-inter text-xs font-light cursor-pointer hover-underline-animation"
         >
           About
         </a>
         <a
-          href="#"
+          href="#projects"
           className=" text-white font-inter text-xs font-light cursor-pointer hover-underline-animation"
         >
           Projects
         </a>
         <EmailButton text="hello@phillipfriedel.com" />
-        {/* <div className="hidden sm:inline">
-        </div> */}
       </div>
     </nav>
   );

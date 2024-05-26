@@ -1,6 +1,6 @@
 import { IconPointFilled } from "@tabler/icons-react";
-import placeholder from "../assets/placeholder.png";
 import { useEffect, useRef } from "react";
+
 export function ProjectCard({ thumbnail }) {
   const logosRef = useRef(null);
 
@@ -14,11 +14,17 @@ export function ProjectCard({ thumbnail }) {
   }, []);
   return (
     <div className="content-center border flex flex-col">
-      <img src={thumbnail} className="w-full h-auto" />
+      <img
+        src={thumbnail}
+        className="w-full h-auto cursor-pointer hover:shadow-deep hover:transform hover:translate-x-[2px] hover:translate-y-[2px] duration-[50ms] transition-all ease-in delay-0 active:scale-[0.99]"
+        onClick={() =>
+          window.open("https://wiki-explorer.phillipfriedel.com/", "_blank")
+        }
+      />
       <div className="p-2 space-y-3 flex flex-col">
         <a
           href="https://wiki-explorer.phillipfriedel.com/"
-          className="w-fit uppercase hover-underline-animation items-start text-white font-bold flex-grow text-sm md:text-medium "
+          className="w-fit uppercase hover-underline-animation items-start text-white font-bold flex-grow text-sm md:text-medium hover-underline-animation cursor-pointer"
           target="_blank"
         >
           Wiki-Explorer

@@ -1,24 +1,28 @@
 import TableCardTitle from "../components/TableCardTitle";
 import CareerPath from "../components/CareerPath";
-
+import useOnScreen from "../hooks/use-on-screen";
+import { useRef } from "react";
+import CVButton from "../components/CVButton";
 import {
   IconArrowDown,
   IconWorld,
   IconCertificate,
   IconTools,
   IconBooks,
-  IconTool,
   IconRoute,
 } from "@tabler/icons-react";
 import FactListComponent from "../components/FactListComponent";
 
 export default function KeyFacts() {
+  const keyFactsDivRef = useRef(null);
+  const isVisible = useOnScreen(keyFactsDivRef);
+
   return (
     <div
       id="key-facts"
-      className="relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[65px] bg-black"
+      className="relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[50px] bg-black"
     >
-      <div className="flex-grow flex items-stretch">
+      <div ref={keyFactsDivRef} className="flex-grow flex items-stretch">
         <div className="flex flex-col flex-grow border-white justify-center">
           <h3 className="flex-grow-0 pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border">
             KEY FACTS
@@ -134,6 +138,7 @@ export default function KeyFacts() {
           </div>
         </div>
       </div>
+      {isVisible && <CVButton />}
     </div>
   );
 }

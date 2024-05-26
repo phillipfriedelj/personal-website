@@ -1,7 +1,7 @@
 import { IconPointFilled } from "@tabler/icons-react";
 import placeholder from "../assets/placeholder.png";
 import { useEffect, useRef } from "react";
-export function ProjectCard() {
+export function ProjectCard({ thumbnail }) {
   const logosRef = useRef(null);
 
   useEffect(() => {
@@ -14,16 +14,16 @@ export function ProjectCard() {
   }, []);
   return (
     <div className="content-center border flex flex-col">
-      <img src={placeholder} className="w-full h-auto" />
-      <div className="p-2 space-y-2 flex flex-col">
+      <img src={thumbnail} className="w-full h-auto" />
+      <div className="p-2 space-y-3 flex flex-col">
         <a
           href="https://wiki-explorer.phillipfriedel.com/"
-          className="w-fit text-white text-sm md:text-medium font-medium uppercase hover-underline-animation items-start"
+          className="w-fit uppercase hover-underline-animation items-start text-white font-bold flex-grow text-sm md:text-medium "
           target="_blank"
         >
           Wiki-Explorer
         </a>
-        <div class="bg-white rounded-full w-1/4 h-5 text-xs inline-flex flex-nowrap overflow-hidden">
+        <div className="bg-white rounded-full w-1/4 h-5 text-xs inline-flex flex-nowrap overflow-hidden">
           <ul
             ref={logosRef}
             className="flex items-center justify-center md:justify-start [&_li]:mx-2 [&_img]:max-w-none [&_svg]:max-w-none animate-infinite-scroll"
@@ -67,13 +67,15 @@ export function ProjectCard() {
           </ul>
         </div>
         <p className="text-white text-xs md:text-sm ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent a
-          tristique ipsum. Maecenas elementum orci nec ipsum scelerisque, id
-          imperdiet velit congue. Maecenas varius blandit dapibus. Nunc volutpat
-          placerat odio, eu ornare ligula suscipit vestibulum. Cras vitae
-          consectetur nisl. Integer in ante at turpis ultrices iaculis.
-          Suspendisse convallis, nulla vel vulputate suscipit, tortor enim
-          gravida elit, vel ullamcorper sem lacus at orci.
+          Wiki-Explorer is a user-friendly tool designed to help you navigate
+          Wikipedia's categories and their related pages in an organized manner.
+          By extracting data directly from Wikipedia dumps, it identifies and
+          processes the relevant connections between categories and pages. The
+          application displays categories in a list format, allows you to view
+          Wikipedia pages directly within the app, and features a search
+          function to find specific categories. Built with Next.js,
+          Wiki-Explorer stores its data in a PostgreSQL RDS on AWS, ensuring
+          robust and reliable performance.
         </p>
       </div>
     </div>

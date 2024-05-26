@@ -14,17 +14,22 @@ import {
 import FactListComponent from "../components/FactListComponent";
 
 export default function KeyFacts() {
-  const keyFactsDivRef = useRef(null);
-  const isVisible = useOnScreen(keyFactsDivRef);
+  const titleDivRef = useRef(null);
+  const isTitleVisible = useOnScreen(titleDivRef);
+  const certsDivRef = useRef(null);
+  const isCertsVisible = useOnScreen(certsDivRef);
 
   return (
     <div
       id="key-facts"
       className="relative min-h-screen flex flex-col py-[28px] px-[20px] md:px-[50px] bg-black"
     >
-      <div ref={keyFactsDivRef} className="flex-grow flex items-stretch">
+      <div className="flex-grow flex items-stretch">
         <div className="flex flex-col flex-grow border-white justify-center">
-          <h3 className="flex-grow-0 pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border">
+          <h3
+            ref={titleDivRef}
+            className="flex-grow-0 pl-2 py-2 font-inter font-bold text-base sm:text-medium md:text-[30px] lg:text-large leading-none text-white border"
+          >
             KEY FACTS
           </h3>
           <div className="flex-1 grid grid-cols-1 md:grid-cols-4 grid-rows-8 md:grid-rows-10 border-white border h-full">
@@ -52,7 +57,10 @@ export default function KeyFacts() {
                 <FactListComponent listText={"ENGLISH - FLUENT"} />
               </div>
             </div>
-            <div className="md:row-span-3 md:col-start-2 row-start-4 md:row-start-4 flex flex-col border-t md:border-t-0">
+            <div
+              ref={certsDivRef}
+              className="md:row-span-3 md:col-start-2 row-start-4 md:row-start-4 flex flex-col border-t md:border-t-0"
+            >
               <TableCardTitle title={"CERTIFICATIONS"}>
                 <IconCertificate
                   color="white"
@@ -138,7 +146,7 @@ export default function KeyFacts() {
           </div>
         </div>
       </div>
-      {isVisible && <CVButton />}
+      {(isTitleVisible || isCertsVisible) && <CVButton />}
     </div>
   );
 }
